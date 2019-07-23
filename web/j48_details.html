@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="#ccd9ff">
+<p>
+    Decision tree J48 is the implementation of algorithm ID3 (Iterative Dichotomiser 3) 
+    developed by the WEKA project team. 
+</p>
+<p>
+Algorithm  
+ <br>
+• Calculate the entropy of every attribute using the data set <br>
+• Split the set into subsets using the attribute for which entropy <br>
+is minimum (or,equivalently, information gain is maximum) <br>
+• Make a decision tree node containing that attribute <br>
+• Recurse on subsets using remaining attributes  <br>
+ 
+<br>
+</p><p>
+Entropy  
+ <br>
+• A formula to calculate the homogeneity of a sample.<br>
+• A completely homogeneous sample has entropy of 0(leaf node).<br> 
+• An equally divided sample has entropy of 1. <br>
+• The formula for entropy is:<br>
+Entropy(S) = -p(I) log2 p(I) <br>
+• where p(I) is the proportion of S belonging to class I.<br>
+∑ is over total outcomes. Log2 is log base 2 <br>
+<br></p><p>
+Information Gain (IG) <br>
+ 
+• The information gain is based on the decrease in entropy after a<br> 
+dataset is split on an attribute. <br>
+• The formula for calculating information gain is: <br>
+Gain(S, A) = Entropy(S) - ((|S v | / |S|) *Entropy(S v )) <br>
+Where:<br>
+• S v = subset of S for which attribute A has value v <br>
+• |S v | = number of elements in S v <br>
+• |S| = number of elements in S <br>
+</p>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CorrelationAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     breast-cancer
+Instances:    699
+Attributes:   11
+              Sample-code-number
+              Clump-Thickness
+              Uniformity-of-Cell-Size
+              Uniformity-of-Cell-Shape
+              Marginal-Adhesion
+              Single-Epithelial-Cell-Size
+              Bare-Nuclei
+              Bland-Chromatin
+              Normal-Nucleoli
+              Mitoses
+              Class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 11 Class):
+	Correlation Ranking Filter
+Ranked attributes:
+ 0.8189   4 Uniformity-of-Cell-Shape
+ 0.8179   3 Uniformity-of-Cell-Size
+ 0.816    7 Bare-Nuclei
+ 0.7566   8 Bland-Chromatin
+ 0.716    2 Clump-Thickness
+ 0.7122   9 Normal-Nucleoli
+ 0.6968   5 Marginal-Adhesion
+ 0.6828   6 Single-Epithelial-Cell-Size
+ 0.4232  10 Mitoses
+ 0.0802   1 Sample-code-number
+
+Selected attributes: 4,3,7,8,2,9,5,6,10,1 : 10
+

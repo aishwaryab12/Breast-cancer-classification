@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="#ccd9ff">
+<p>
+    In machine learning we are often interested in selecting the best 
+    hypothesis (h) given data (d).In a classification problem, our 
+    hypothesis (h) may be the class to assign for a new data instance (d).
+    One of the easiest ways of selecting the most probable hypothesis 
+    given the data that we have that we can use as our prior knowledge 
+    about the problem. Bayes’ Theorem provides a way that we can calculate
+    the probability of a hypothesis given our prior knowledge. 
+
+</p>
+<br>
+<p>
+Bayes’ Theorem is stated as: 
+ 
+P(h|d) = (P(d|h) * P(h)) / P(d) 
+Where 
+</p>
+<br>
+P(h|d) is the probability of hypothesis h given the data d. This is called the posterior probability. 
+<br>
+P(d|h) is the probability of data d given that the hypothesis h was true. 
+<br>
+P(h) is the probability of hypothesis h being true (regardless of the data). This is called the prior probability of h. 
+<br>
+P(d) is the probability of the data (regardless of the hypothesis). 
+<br>
+<p>
+After calculating the posterior probability for a number of different hypotheses, you can select the hypothesis with the highest probability. This is the maximum probable hypothesis and may formally be called the maximum a posteriori (MAP) hypothesis. 
+</p>
+</body>
+</html>
